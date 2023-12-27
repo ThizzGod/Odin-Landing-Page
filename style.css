@@ -10,6 +10,10 @@ ul {
     display: flex;
     flex-direction: column;
     border: 1px dotted red;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+    padding-top: 25px;
 }
 
 .links {
