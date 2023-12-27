@@ -6,6 +6,11 @@ ul {
     list-style: none;
 }
 
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -13,12 +18,14 @@ ul {
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 150px;
-    padding-top: 25px;
+    background-color: #1F2937;
 }
 
 .links {
     display: flex;
     border: 1px dotted red;
+    gap: 20px;
+    align-items: center;
 }
 
 .h-top {
@@ -35,6 +42,8 @@ ul {
 
 button {
     width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 img {
@@ -47,4 +56,21 @@ img {
 .img-align {
     display: flex;
     justify-content: space-between;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAf8;
+}
+
+.heading-info,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
