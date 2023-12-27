@@ -100,4 +100,8 @@ img {
 
 .all-items {
     display: flex;
+    gap: 40px;
+    border: 1px dotted red;
+    width: 1000px;
+    justify-content: center;
 }
