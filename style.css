@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+ul {
+    list-style: none;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,11 @@ body {
     justify-content: space-between;
 }
 
-ul {
-    list-style: none;
+.h-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
 }
