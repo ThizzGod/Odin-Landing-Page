@@ -26,8 +26,21 @@ ul {
 .h-bottom {
     display: flex;
     flex-direction: column;
+    flex-basis: 600px;
 }
 
 button {
     width: 100px;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.img-align {
+    display: flex;
+    justify-content: space-between;
 }
