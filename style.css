@@ -123,3 +123,18 @@ button {
     font-weight: 900;
     margin-top: 40px;
 }
+
+.quote-space {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.resident {
+    align-self: flex-end;
+}
