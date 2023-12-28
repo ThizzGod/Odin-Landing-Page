@@ -41,6 +41,9 @@ button {
     width: 100px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 8px;
+    height: 25px;
+    border: 1px solid #1F2937;
 }
 
 .header img {
@@ -184,4 +187,20 @@ button {
 .cta-info {
     font-size: 14px;
 
+}
+
+.cta button {
+    border: 1px solid #F9FAf8;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #1F2937;
+}
+
+.copyright div {
+    color: #e5e7eb;
 }
