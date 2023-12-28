@@ -112,3 +112,7 @@ button {
 .item img {
     width: 200px;
 }
+
+.item p {
+    max-width: 200px;
+}
