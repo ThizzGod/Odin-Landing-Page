@@ -104,7 +104,6 @@ button {
 .all-items {
     display: flex;
     gap: 40px;
-    border: 1px dotted red;
     width: 1000px;
     justify-content: center;
     margin-bottom: 80px;
@@ -133,8 +132,17 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 1000px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .resident {
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
 }
