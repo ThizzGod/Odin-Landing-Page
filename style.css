@@ -165,8 +165,19 @@ button {
     display: flex;
     flex-direction: column;
     width: 700px;
+    color: #f9faf8;
 }
 
 .cta-text p {
     margin: 0px;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta-info {
+    font-size: 14px;
+
 }
