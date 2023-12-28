@@ -159,6 +159,10 @@ button {
     justify-content: space-between;
     background-color: #3882f6;
     width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .cta-text {
