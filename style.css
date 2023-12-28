@@ -146,3 +146,27 @@ button {
     font-weight: 800;
     font-style: normal;
 }
+
+.cta-space {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 1000px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.cta-text p {
+    margin: 0px;
+}
